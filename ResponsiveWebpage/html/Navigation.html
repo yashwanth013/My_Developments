@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBPAGE</title>
+    <link rel="stylesheet" href="/ResponsiveWebpage/css/Webpage.css" />
+  </head>
+  <body class="main">
+    <header>
+      <img
+        class="image1"
+        src="/ResponsiveWebpage/images/img1.jpeg"
+        alt="images"
+      />
+    </header>
+    <ul class="Navbuttons">
+      <li><a href="Webpage.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li>
+        <button class="button" onclick="resetElement()">
+          <a
+            href="https://www.linkedin.com/in/yashwanth-kantha/"
+            class="link3"
+            target="_self"
+            >Contact Me</a
+          >
+        </button>
+      </li>
+    </ul>
+
+    <footer class="bottommain">
+      <button onclick="changeVisibility()" class="imgbox" id="imgbox2">
+        Contact Us
+      </button>
+    </footer>
+    <script>
+      function changeVisibility() {
+        document.getElementById("imgbox2").style.visibility = "hidden";
+      }
+
+      function resetElement() {
+        document.getElementById("imgbox2").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>
