@@ -10,40 +10,51 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
   background-color: rgb(75, 9, 70);
 }
-.left {
+.logo_name {
   font-size: 1.5rem;
+  padding: 5px;
 }
-.right ul {
+.nav_menu {
+  margin-right: 50px;
+  box-sizing: content-box;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_menu ul {
   display: flex;
   justify-content: space-around;
   font-size: small;
 }
-.right ul li {
+.nav_menu ul li {
   list-style: none;
   margin: 0 5px;
   border-radius: 15px;
 }
-
-.left {
-  font-size: 1.2rem;
+.hero_section {
+  display: flex;
+  box-sizing: content-box;
+  justify-content: space-around;
 }
-.firstSection {
+
+.about_me {
   display: flex;
   justify-content: space-around;
   margin: 23px 0;
-}
-.firstSection div {
-  width: 30%;
+  width: 50%;
 }
 
-.rightSection img {
-  width: 80%;
-  margin: 50px 0;
+.profile_image {
+  display: flex;
+  margin-left: 8px;
+  /* box-sizing: content-box; */
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
 }
 .Expeo {
   display: flex;
