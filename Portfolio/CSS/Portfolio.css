@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 5px;
+  padding: auto;
+}
 #main-id {
   background-color: rgb(53, 4, 56);
   color: white;
